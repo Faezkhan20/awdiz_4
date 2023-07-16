@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
+    <script src="https://kit.fontawesome.com/d4fa596027.js" crossorigin="anonymous"></script>
     <style>
  *{
         margin: 0;
@@ -79,7 +80,74 @@
             font-size: 40px;
         }
 
-       
+        #about {
+            width: 70%;
+            margin: auto;
+            /* border: 2px solid black; */
+            box-shadow: 0px 0px 4px gray;
+            height: 450px;
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-evenly;
+            background-color:black;
+        }
+
+        #about-left {
+            width: 42%;
+            /* border: 2px solid red; */
+            display: flex;
+            justify-content: space-evenly;
+            height: 60%;
+            margin-top: 80px;
+            color: white;
+        }
+
+        #about-right {
+            width: 42%;
+            /* border: 2px solid red; */
+            margin-top: 80px;
+            color: white;
+        }
+
+        .w-42 {
+            width: 42%;
+            /* border: 1px solid black; */
+        }
+
+        .fs-16 {
+            font-size: 24px;
+        }
+
+        .mb-20 {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        #icons {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+            /* border: 1px solid black; */
+            width: 45%;
+            height: 40px;
+            padding-top: 13px;
+        }
+
+        #icons div {
+            border: 4px solid #0078ff;
+            width:14px;
+            height: 10px;
+            border-radius: 60%;
+            padding: 15px;
+            padding-top: 10px;
+            padding-right: 23px;
+        }
+
+        #icons div:hover {
+            background-color: #0078ff;
+            color: white;
+            border: 4px solid rgb(197, 195, 195);
+        }
     </style>
 </head>
 <body>
@@ -105,5 +173,49 @@
             </div>
         </div>
     </div>
+    <div id="about">
+        <div id="about-left">
+            <div class="w-42">
+                <img style="width: 100%; height: 70%; border-radius: 10px;" src="https://cdn.digg.com/images/2d35c58da4f94dec83e0d5d2a3267808_f1106170d84c47c1ab4309733c4d5147_header.jpeg" />
+            </div>
+            <div class="w-42">
+                <p style="font-size: 19px;" class=" mb-20"><b>Name :</b> FAEZ KHAN</p>
+                <p style="font-size: 15px;" class="mb-20"><b>Profile :</b> I'M FULL STACK DEVELOPER</p>
+                <p class="mb-20"><b>Email :</b>KHANFAEZ2@gmail.com</p>
+                <p class="mb-20"><b>Phone :</b> 7977206400</p>
+            </div>
+        </div>
+        <div id="about-right">
+            <h1>About me</h1>
+            <div style="border: 2px solid #0078ff; width: 34%;"></div>
+            <p style="color: white; font-size: 18px; margin-top: 25px;">I am a full stack developer with a vast array of knowledge in many different front end and back end languages, responsive frameworks, databases, and best code practices.</p>
+            <button
+                style="background-color: #0078ff; color: white; border: none; width: 150px; height: 35px; font-size: 20px; margin-top: 20px;">Resume</button>
+            <div id="icons">
+                <div>
+                    <i class="fa-brands fa-twitter fa-xl"></i>
+                </div>
+                <div>
+                    <i class="fa-brands fa-github fa-xl"></i>
+                </div>
+                <div>
+                    <i class="fa-brands fa-linkedin fa-xl"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="skills">
+
+    </div>
+    <div id="project">
+
+    </div>
+    <div id="blog">
+
+    </div>
+    <div id="contact">
+
+    </div>
+</div>
 </body>
 </html>
