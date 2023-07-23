@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#parent{
+    border: 3 px solid red;
+    height: 2000px;
+}
+#navbar{
+  border: 2px solid blue;
+  height: 160px;
+  position: sticky;
+  top: 0;
+}
+#one{
+  border: 1px solid black;
+  height: 30px;
+  background-color: rgb(238,238,238);
+}
+#onesemi{
+  width: 90%;
+  margin: auto;
+  border: 1px solid red;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(102, 103, 109);
+}
+#two{
+  border: 1px solid black;
+  height: 50px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+#three{
+  border: 1px solid black;
+  height: 65px;
+  width: 80%;
+  margin: auto;
+}
+#semiflex{
+  border: 1px solid red;
+  font-size: 12px;
+  width: 300px;
+  justify-content: space-evenly;
+  display: flex;
+  margin-top: 10px;
+ 
+}
+#semiflex2{
+  border: 1px solid red;
+  font-size: 12px;
+  width: 200px;
+  justify-content: space-evenly;
+  display: flex;
+ margin-top: 10px;
+ 
+}
+#twoleft{
+  border: 1px solid red;
+  width: 350px;
+  margin-left: -780px;
+  margin-top: 10px;
+}
+#image{
+  
+  border: 1px solid red;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 180px;
+}
