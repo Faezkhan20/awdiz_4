@@ -1,47 +1,50 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: montserrat,sans-serif;
 }
 #parent{
-    border: 3 px solid red;
-    height: 2000px;
+    border: 3px solid red;
+    height: 3000px;
 }
 #navbar{
-  border: 2px solid blue;
-  height: 160px;
+  
+  height: 150px;
   position: sticky;
   top: 0;
+  background-color: white;
 }
 #one{
-  border: 1px solid black;
+  
   height: 30px;
   background-color: rgb(238,238,238);
 }
 #onesemi{
   width: 90%;
   margin: auto;
-  border: 1px solid red;
+ 
   height: 30px;
   display: flex;
   justify-content: space-between;
   color: rgb(102, 103, 109);
 }
 #two{
-  border: 1px solid black;
+  
   height: 50px;
   width: 90%;
-  margin: auto;
+  margin-left: 70px;
   display: flex;
   justify-content: space-between;
 }
 #three{
-  border: 1px solid black;
+  
   height: 65px;
-  width: 80%;
+  width: 73%;
   margin: auto;
+  
 }
 #semiflex{
-  border: 1px solid red;
+  
   font-size: 12px;
   width: 300px;
   justify-content: space-evenly;
@@ -50,7 +53,7 @@
  
 }
 #semiflex2{
-  border: 1px solid red;
+  
   font-size: 12px;
   width: 200px;
   justify-content: space-evenly;
@@ -59,15 +62,96 @@
  
 }
 #twoleft{
-  border: 1px solid red;
-  width: 350px;
-  margin-left: -780px;
+ 
+  width: 300px;
+ margin-right: 310px;
   margin-top: 10px;
+  font-size: 14px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 #image{
   
-  border: 1px solid red;
+  
   background-repeat: no-repeat;
   height: 50px;
   width: 180px;
+}
+#tworight{
+  margin-right: 180px;
+  
+
+}
+.line{
+  width: 1px;
+  height: 24px;
+  background-color: black;
+  margin-top: -28px;
+  margin-left: 315px;
+}
+.login{
+  margin-left: 30px;
+  margin-top: 6px;
+  display: flex;
+  
+}
+.threeclass{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+  font-weight: 300;
+}
+#photo{
+  
+  height: 515px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+#smallphoto{
+  border: 1px solid red;
+  width: 90%;
+  height: 200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+
+}
+#smallname{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-left: 100px;
+  margin-top: 20PX;
+}
+.banner{
+  border: 1px solid red;
+  width: 100%;
+  height: 152px;
+  margin-top: 50px;
+}
+#week{
+  display: flex;
+  border: 1px solid red;
+  width: 100%;
+  height: 410px;
+}
+#split{
+  border: 1px solid red;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -4px;
+}
+#splittwo{
+  border: 1px solid red;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
 }
