@@ -5,7 +5,7 @@
 }
 #parent{
     border: 3px solid red;
-    height: 3000px;
+    height: 14000px;
 }
 #navbar{
   
@@ -110,7 +110,7 @@
   
 }
 #smallphoto{
-  border: 1px solid red;
+ 
   width: 90%;
   height: 200px;
   margin: auto;
@@ -128,19 +128,19 @@
   margin-top: 20PX;
 }
 .banner{
-  border: 1px solid red;
+ 
   width: 100%;
   height: 152px;
   margin-top: 50px;
 }
 #week{
   display: flex;
-  border: 1px solid red;
+  
   width: 100%;
   height: 410px;
 }
 #split{
-  border: 1px solid red;
+  
   width: 100%;
   height: 300px;
   display: flex;
@@ -148,10 +148,74 @@
   margin-top: -4px;
 }
 #splittwo{
-  border: 1px solid red;
+  
   width: 100%;
   height: 300px;
   display: flex;
   justify-content: space-between;
   margin-top: 25px;
+}
+#four{
+  
+  width: 100%;
+  height: 420px;
+display: flex;
+justify-content: space-evenly;
+margin-top: 40px;
+
+}
+#fourtwo{
+ 
+  width: 100%;
+  height: 420px;
+display: flex;
+justify-content: space-evenly;
+margin-top: 10px;
+
+}
+#splitthree{
+  
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7px;
+}
+
+#phototwo{
+  
+  height: 515px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  
+}
+#fourbanner{
+  width: 100%;
+  height: 460px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-evenly;
+}
+#splitfive{
+  display: flex;
+  justify-content: space-evenly;
+  height: 440px;
+  border: 1px solid red;
+}
+#price{
+  border: 1px solid red;
+  height: 80px;
+  width: 100%;
+  margin-top: 59px;
+}
+.add{
+  display: flex;
+  font-size: 13px;
+  margin-top: 5px;
+  
+}
+.money{
+  display: flex;
+  
 }
