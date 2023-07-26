@@ -4,7 +4,7 @@
   font-family: montserrat,sans-serif;
 }
 #parent{
-    border: 3px solid red;
+    
     height: 14000px;
 }
 #navbar{
@@ -193,29 +193,90 @@ margin-top: 10px;
 #fourbanner{
   width: 100%;
   height: 460px;
-  border: 1px solid red;
+  
   display: flex;
   justify-content: space-evenly;
 }
 #splitfive{
   display: flex;
   justify-content: space-evenly;
-  height: 440px;
-  border: 1px solid red;
+  height: 560px;
+  
+ 
+
+
+ 
 }
-#price{
-  border: 1px solid red;
-  height: 80px;
+.background{
+  height: 560px;
+  
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url(https://images.bewakoof.com/web/bg-web-mc-land-page.svg);
+  background-repeat: no-repeat;
   width: 100%;
-  margin-top: 59px;
-}
-.add{
-  display: flex;
-  font-size: 13px;
-  margin-top: 5px;
+  background-size: cover;
   
 }
-.money{
-  display: flex;
+#fourthree{
   
+  width: 100%;
+  height: 420px;
+display: flex;
+justify-content: space-evenly;
+margin-top: 40px;
+
 }
+#fourfour{
+  width: 100%;
+  height: 420px;
+display: flex;
+justify-content: space-evenly;
+margin-top: 10px;
+}
+#last{
+  height: 500px;
+  width: 100%;
+ 
+  background-color: #181818;
+}
+#main{
+  height: 380px;
+  width: 90%;
+ 
+  margin: auto;
+  margin-top: 90px;
+  display: flex;
+
+}
+.onelast{
+  height: 265px;
+  width: 25%;
+ 
+  margin-top: 20px;
+}
+.twolast{
+  height: 260px;
+  width: 25%;
+ 
+  margin-top: 45px;
+}
+.threelast{
+  height: 260px;
+  width: 25%;
+  
+  margin-top: 45px;
+}
+.fourlast{
+    height: 260px;
+    width: 25%;
+ 
+    margin-top: 45px;
+  }
+  .app{
+   
+    height: 60px;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+  }
