@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* windows view */
+        #parent {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            background-color: gold;
+        }
+
+        #parent > div {
+            width: 30%;
+            height: 300px;
+            border: 5px solid red;
+        }
+
+        /* mobile design */
+        @media screen and (max-width : 450px) {
+
+         
+            #parent {
+                background-color: blueviolet;
+                flex-direction: column;
+                /* flex-direction: column-reverse; */
+                font-size: 60px;
+                color: white;
+                text-align: center;
+            }
+
+            #parent > div{
+                width: 80%;
+                height: 500px;
+                border: 5px solid black;
+            }
+        }
+
+        /* tablet view */
+        @media screen and (min-width : 451px) and (max-width : 850px) {
+            #parent  {
+                background-color: pink;
+                flex-direction: column-reverse;
+                font-size: 60px;
+                color: white;
+                text-align: center;
+                justify-content: center;
+            }
+
+            #parent > div {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+        <div>1 First</div>
+        <div>2 second</div>
+        <div>3 Third</div>
+        <div>4 Fourth</div>
+    </div>
+
+</body>
+
+</html>
