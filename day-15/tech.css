@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#screen {
+    width: 100%;
+    height: 2000px;
+
+}
+
+#bars {
+    display: none;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    border: 1px solid white;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#logo {
+    padding-top: 30px;
+    /* border: 2px solid white; */
+    width: 25%;
+}
+
+#home {
+
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+}
+
+#logoo {
+
+    width: 7%;
+    margin: auto;
+    height: 108px;
+    margin-top: 120px;
+}
+
+#hometext {
+
+    width: 31%;
+    margin: auto;
+    height: 120px;
+    font-size: 60px;
+    margin-top: 30px;
+    font-family: 'Space Grotesk', sans-serif;
+    ;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+#hometexttwo {
+
+    width: 36%;
+    margin: auto;
+    height: 60px;
+    font-size: 18px;
+    margin-top: 30px;
+    font-family: 'Space Grotesk', sans-serif;
+    ;
+    text-align: center;
+
+}
+
+#hometextthree {
+    width: 10%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    height: 40px;
+
+
+
+}
+
+#logo>p:nth-child(2) {
+    display: none;
+}
+
+#navigations {
+    padding-top: 30px;
+    /* border: 2px solid white; */
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#banner {
+
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+#banner>div {
+
+    width: 29%;
+    height: 500px;
+
+}
+
+
+#socialNetworks {
+    padding-top: 30px;
+    /* border: 2px solid white; */
+    width: 25%;
+    display: flex;
+    justify-content: end;
+    /* - align Horizontally */
+    /* align-items: end; - align vertically */
+}
+
+#socialNetworks>div {
+    margin-left: 20px;
+}
+
+
+@media screen and (max-width : 990px) {
+    #logo {
+        margin-left: 20px;
+    }
+
+    #logo>p:nth-child(1) {
+        display: none;
+    }
+
+    #logo>p:nth-child(2) {
+        display: block;
+    }
+
+    #navigations {
+        display: none;
+    }
+
+    #socialNetworks {
+        display: none;
+    }
+
+    #navbar {
+        justify-content: space-between;
+    }
+
+    #bars {
+        margin-right: 30px;
+        padding-top: 30px;
+        display: block;
+    }
+}
+
+@media screen and (min-width : 300px) and (max-width : 1023px) {
+
+   
+   
+
+
+    #banner {
+        flex-direction: column;
+        margin-top: 0px;
+        display: block;
+
+    }
+
+    #banner>div {
+        width: 100%;
+
+    }
+
+    #hometextthree {
+        margin-top: 0px;
+    }
+
+    #bigbanner {
+        margin-top: 0px;
+    }
+  #button{
+    font-size: 10px;
+  }
+}
