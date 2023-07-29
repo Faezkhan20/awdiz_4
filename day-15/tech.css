@@ -161,7 +161,37 @@
     }
 }
 
-@media screen and (min-width : 300px) and (max-width : 1023px) {
+@media screen and (min-width : 300px) and (max-width : 1070px) {
+#home{
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+#button{
+    margin-top: 170px;
+    width: 20%;
+    height: 80px;
+    font-size: large;
+    
+    
+}
+#buttonn{
+    width: 20%;
+}
+#hometextthree{
+    width: 40%;
+}
+#hometexttwo{
+    width: 100%;
+ 
+}
+#hometext{
+    width: 100%;
+}
+#logoo{
+    width: 20%;
+}
 
    
    
@@ -178,13 +208,19 @@
         width: 100%;
 
     }
-
+ #up{
+    margin-top: -30px;
+ }
+#uptwo{
+    margin-top: -90px;
+    padding-bottom: -30px;
+}
     #hometextthree {
         margin-top: 0px;
     }
 
     #bigbanner {
-        margin-top: 0px;
+        margin-top: 10px;
     }
   #button{
     font-size: 10px;
